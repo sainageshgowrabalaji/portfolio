@@ -4,134 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sai Nagesh Gowra Balaji</title>
-  <!-- Materialize CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-  
-
-
-  <!-- Custom Styles -->
   <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #899da9;
-    }
-    header, h1, h2, h3 {
-      color: #0e262a;
-      font-family: 'Oswald';
-    }
-    p{
-      font-family: 'Roboto', sans-serif;
-      
-    }
-    .header {
-      background-color: #899da9;
-      color: #fff;
-      padding: 1px 0;
-      position: relative;
-    }
-    .personal-info {
-      display: flex;
-      align-items: center;
-    }
-    .image img {
-      border-radius: 50%;
-      margin-right: 20px;
-    }
-    .personal-info h3 {
-      margin: 0;
-      font-size: 24px;
-    }
-    .personal-info a {
-      color: #fff;
-      text-decoration: none;
-      margin-left: 20px;
-    }
-    .personal-info a:hover {
-      color: #e5e5e5;
-    }
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: relative;
-    }
-    .personal-info {
-      display: flex;
-    }
-    .left {
-      flex: 1;
-    }
-    .right {
-      margin-left: 20px;
-    }
-    .center-align {
-      text-align: center;
-    }
-    .container {
-      margin-top: 30px;
-    }
-    .card {
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease-in-out;
-      z-index: 1;
-      background-color: #d2d2d2;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      transform: scale(1.025); 
-      z-index: 2;
-      box-shadow: 0 0 0 3px #0e262a;
-    }
-    .card-title {
-      font-weight: 500;
-      color: #0e262a;
-      font-family: 'Oswald';
-    }
-    .collection .collection-item {
-      background-color: transparent;
-      border: none;
-      color: #555;
-      font-weight: 500;
-    }
-    footer.page-footer {
-      background-color: #0e262a;
-      padding: 20px 0;
-      color: #fff;
-      margin-top: 30px;
-    }
-    .thick-hr {
-    height: 4px; /* Adjust the height as needed */
-    background-color: #0e262a; /* Optional: Change the color */
-    border: none; /* Optional: Remove the border */
-    }
-    .link-box {
-    display: inline-block;
-    margin-right: 10px; /* Adjust the spacing between links */  
-    }
-    .link-box:hover{
-        border-radius: 10px;
-        box-shadow: 0 0 0 2px #0e262a;
-    }
-    .responsive-header {
-    width: 100%; /* Set a default width */
-    margin: 0 auto; /* Center the header */
-    text-align: center; /* Center the text */
-    font-size: 2rem; /* Adjust the font size as needed */
-    margin-bottom: 0.5rem; /* Adjust the bottom margin as needed */
-  }
-  @media screen and (max-width: 768px) {
-    /* Adjust the width for smaller screens */
-    .responsive-header {
-      width: 90%;
-      font-size: 1.5rem; /* Adjust the font size for smaller screens */
-    }
-  }
+    body { font-family: 'Roboto', sans-serif; background-color: #899da9; }
+    header, h1, h2, h3 { color: #0e262a; font-family: 'Oswald'; }
+    p { font-family: 'Roboto', sans-serif; }
+    .header { background-color: #899da9; color: #fff; padding: 1px 0; position: relative; }
+    .personal-info { display: flex; align-items: center; }
+    .image img { border-radius: 50%; margin-right: 20px; }
+    .personal-info h3 { margin: 0; font-size: 24px; }
+    .personal-info a { color: #fff; text-decoration: none; margin-left: 20px; }
+    .personal-info a:hover { color: #e5e5e5; }
+    .container { display: flex; justify-content: space-between; align-items: center; position: relative; margin-top: 30px; }
+    .card { border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out; z-index: 1; background-color: #d2d2d2; }
+    .card:hover { transform: scale(1.025); z-index: 2; box-shadow: 0 0 0 3px #0e262a; }
+    .card-title { font-weight: 500; color: #0e262a; font-family: 'Oswald'; }
+    .collection .collection-item { background-color: transparent; border: none; color: #555; font-weight: 500; }
+    footer.page-footer { background-color: #0e262a; padding: 20px 0; color: #fff; margin-top: 30px; }
+    .thick-hr { height: 4px; background-color: #0e262a; border: none; }
+    .link-box { display: inline-block; margin-right: 10px; }
+    .link-box:hover { border-radius: 10px; box-shadow: 0 0 0 2px #0e262a; }
+    .responsive-header { width: 100%; margin: 0 auto; text-align: center; font-size: 2rem; margin-bottom: 0.5rem; }
+    @media screen and (max-width: 768px) { .responsive-header { width: 90%; font-size: 1.5rem; } }
   </style>
 </head>
 <body>
@@ -212,18 +110,14 @@
                                     <i class="fas fa-envelope"></i> 
                                 </a>
                                 <span style="margin-left: 10px;"></span> <!-- Add spacing between links -->
-<<<<<<< HEAD
-                                <a href="https://github.com/sainageshgowrabalaji/portfolio/blob/main/Resume_GowraBalajiSaiNagesh.pdf" style="text-decoration: none;">
-=======
-                                <a href="Resume_GowraBalajiSaiNagesh.pdf" style="text-decoration: none;">
->>>>>>> 4e49c8b (update changes)
+                                <a href="https://github.com/sainageshgowrabalaji/portfolio/blob/main/portfolio/Resume_GowraBalajiSaiNagesh.pdf" style="text-decoration: none;">
                                     <span><i style="color: #0e262a; font-size: 20px;" class="fa fa-download" aria-hidden="true"></i></span>
                                 </a>
                               </p>
                         </div></span>
                     
                     <p>
-                        Innovative Software Engineer with a proven track record of turning concepts into impactful projects. Offering a diverse skill set, I bring a unique blend of technical expertise and strategic thinking. Excelled in optimizing processes, enhancing customer satisfaction, and delivering top-notch solutions under tight timelines. Ready to contribute my expertise to drive success in your dynamic team with a passion for continuous improvement.
+                        Results-driven Software Engineer with a Master's in Computer Science and hands-on experience across full-stack development, automation testing, and data-driven application design. Proven expertise in building scalable enterprise applications, ERP systems, and predictive analytics platforms. Adept at working with technologies like Java, Spring Boot, Django, MERN Stack, and AWS, along with strong foundations in REST APIs, database management, and QA methodologies. Demonstrated success in streamlining operations for retail and finance domains, leading cross-functional teams, and delivering quality solutions under tight deadlines. Passionate about continuous learning, innovation, and contributing meaningfully to impactful tech ecosystems.
                     </p>
                 </div>
             </div>
@@ -240,9 +134,9 @@
                                         <span style="font-size: 0.6em; margin-left: auto; ">SEPT 2023 - DEC 2024, USA</span>
                                     </span>
                                     <p>New Jersey Institute Of Technology, Newark 
-                                        <span style="font-size: 0.8em; float: right;">CGPA: 3.625/4.0</span>
+                                        <span style="font-size: 0.8em; float: right;">CGPA: 3.85/4.0</span>
                                     </p>
-                                    <p style="font-size: 0.8em; margin-left: auto;">Data Structures and Algorithms | Adv Data Management System Design | Machine Learning | Cloud Computing | Computer Networks</p>
+                                    <p style="font-size: 0.8em; margin-left: auto;">Data Structures and Algorithms | Adv Data Management System Design | Machine Learning | Deep Learning | Big Data | Cloud Computing | Computer Networks</p>
                                 </div>
                             </div>
                         </div>
@@ -273,51 +167,99 @@
                         <div class="col s12">
                             <div class="card">
                                 <div class="card-content">
-                                    <div style="display: flex; align-items: center;">
-                                        <span class="card-title" style="font-family: 'Roboto', sans-serif;">Jewelry Manager</span>
-                                        <span style="flex-grow: 1;"></span> <!-- Spacer -->
-                                        <span style="font-size: 0.8em;">JUN 2021 - AUG 2023, INDIA</span>
-                                    </div>
-                                    <p>Gurudatta Jewellers, Chittoor</p>
-                                    <hr>
-                                    <p>Elevated customer engagement through the development and maintenance of a web page showcasing daily gold and silver prices. Orchestrated the product cycle for a web-based jewelry software, streamlining store billing and accounting processes. Led web development aspects related to sales, billing, purchases, repairs, and customer complaints within retail operations. Provided supervision and training to staff, contributing to enhanced team performance and productivity. Demonstrated strong leadership, communication, and organizational skills, making significant contributions to the growth and success of the family business.</p>
+                                  <div style="display: flex; align-items: center;">
+                                    <span class="card-title" style="font-family: 'Roboto', sans-serif;">Java Full Stack Developer Intern</span>
+                                    <span style="flex-grow: 1;"></span>
+                                    <span style="font-size: 0.8em;">FEB 2025 – PRESENT, USA (Remote)</span>
+                                  </div>
+                                  <p>Marlabs (Client: Lloyds Banking Group)</p>
+                                  <hr>
+                                  <ul>
+                                    <li>Engineered secure and scalable Spring Boot microservices to support onboarding and transaction workflows for 10,000+ users.</li>
+                                    <li>Integrated OAuth2 and JWT using Spring Security to safeguard sensitive financial information.</li>
+                                    <li>Built and deployed CI/CD pipelines using GitHub Actions and Jenkins, cutting release cycles by 40%.</li>
+                                    <li>Optimized cloud deployments using Kubernetes on GCP for dynamic microservice scaling.</li>
+                                    <li>Improved code reliability and stability through 90%+ test coverage using JUnit, Cucumber, and Mockito.</li>
+                                    <li>Actively contributed in Agile sprints, story grooming, testing, retrospectives, and customer demos.</li>
+                                  </ul>
                                 </div>
-                            </div>
+                              </div>
                         </div>
                         
                         <div class="col s12">
                             <div class="card">
                                 <div class="card-content">
-                                    <div style="display: flex; align-items: center;">
-                                        <span class="card-title" style="font-family: 'Roboto', sans-serif;">Associate Software Engineer&nbsp;<sub style="font-size: 12px;">(Grad Dev)</sub></span>
-                                        <span style="flex-grow: 1;"></span> <!-- Spacer -->
-                                        <span style="font-size: 0.8em;">JUL 2020 - MAY 2021, INDIA</span>
-                                    </div>
-                                    <p>BNY Mellon Technology, Chennai</p>
-                                    <hr><p>Continuously enhancing the Quality Engineering Dashboard (QED) portal for improved speed and scalability, implemented advanced back-end features. These innovations included efficient data extraction, email capabilities in various formats, and synchronized tables for graphical metrics presentation, ensuring a visually engaging and easily understandable user experience.</p>
-                                        <br><p>Collaborating with an R&D team, pioneered the development of an interface for automating BDD testing scripts for webpages in the Client-Onboarding (COB) portal within the NetX360 application. The role extended to executing BDD automation testing scripts for all QED application dashboards and diverse composite dashboards within NetX360.</p>
-                                        <br><p>Providing personalized training, guided colleagues in one-on-one sessions on automation test script development and bug identification using the BDD Automation Framework. The commitment to excellence led to promoting standardized testing methodologies across the team.</p>
-                                        <br><p>During resource constraints, supported the testing team, gaining valuable experience in test case management. The efforts included part-time dedication to conducting regression, validation, and functional testing of Client-Onboarding (COB) dashboards. Successfully designed and executed over 500 test cases derived from 30 unique stories, demonstrating collaboration and support from the business and testing teams, as well as other NetX360 developers.</p>
-                                        
+                                  <div style="display: flex; align-items: center;">
+                                    <span class="card-title" style="font-family: 'Roboto', sans-serif;">Java Developer</span>
+                                    <span style="flex-grow: 1;"></span>
+                                    <span style="font-size: 0.8em;">SEP 2024 – JAN 2025, USA (Remote)</span>
+                                  </div>
+                                  <p>Energy Mashup Lab (Open Source)</p>
+                                  <hr>
+                                  <ul>
+                                    <li>Developed Java modules simulating decentralized smart energy markets for grid-level power management.</li>
+                                    <li>Implemented ledger systems and message routing logic using CTS protocols and Spring Boot.</li>
+                                    <li>Contributed to a modular distributed architecture with Maven, JUnit, and Java 8-based market services.</li>
+                                  </ul>
                                 </div>
-                            </div>
+                              </div>
                         </div>
                         <div class="col s12">
                             <div class="card">
                                 <div class="card-content">
-                                    <div style="display: flex; align-items: center;">
-                                        <span class="card-title" style="font-family: 'Roboto', sans-serif;">Software Developer Intern</span>
-                                        <span style="flex-grow: 1;"></span> <!-- Spacer -->
-                                        <span style="font-size: 0.8em;">JAN 2020 - JUN 2020, INDIA</span>
-                                    </div>
-                                    <p>BNY Mellon Technology, Chennai</p>
-                                    <hr><p>Developed the Quality Engineering Dashboard (QED), a centralized portal facilitating internal LOB teams in tracking and accessing crucial project-related assets. This includes manual and automation testing extracts, defect metrics, common infrastructure events, vacation reports, and other team projects and activities.</p>
-
-                                        <br><p>Documented technical workflows and reports to support development team members, enhancing project visibility and cross-functional communication. Authored precise automation testing scripts for diverse QED portal dashboards, reducing manual testing efforts and boosting overall efficiency. Contributed significantly to continuous improvement initiatives and the delivery of high-quality project outcomes.</p>
+                                  <div style="display: flex; align-items: center;">
+                                    <span class="card-title" style="font-family: 'Roboto', sans-serif;">Software Developer</span>
+                                    <span style="flex-grow: 1;"></span>
+                                    <span style="font-size: 0.8em;">JUN 2022 – AUG 2023, INDIA</span>
+                                  </div>
+                                  <p>GJ Technologies</p>
+                                  <hr>
+                                  <ul>
+                                    <li>Built a dynamic React + Node.js analytics platform offering real-time gold/silver pricing to 500+ daily users.</li>
+                                    <li>Connected MongoDB for historical logging and implemented ARIMA forecasting models with 70% accuracy.</li>
+                                    <li>Deployed Django ERP modules for billing, repairs, and inventory—reducing manual effort by 90%.</li>
+                                    <li>Containerized features with Docker and deployed on PythonAnywhere for seamless retail access.</li>
+                                  </ul>
                                 </div>
-                            </div>
+                              </div>
                             
                         </div>
+                        <div class="col s12">
+                            <div class="card">
+                              <div class="card-content">
+                                <div style="display: flex; align-items: center;">
+                                  <span class="card-title" style="font-family: 'Roboto', sans-serif;">Associate Software Engineer</span>
+                                  <span style="flex-grow: 1;"></span>
+                                  <span style="font-size: 0.8em;">JAN 2020 – MAY 2022, INDIA</span>
+                                </div>
+                                <p>BNY Mellon Technology, Chennai</p>
+                                <hr>
+                          
+                                <!-- Sub-Project 1 -->
+                                <h6 style="margin-top: 20px; font-weight: bold; color: #0e262a;">Project: QED (Quality Engineering Dashboard) Platform</h6>
+                                <ul style="margin-left: 15px;">
+                                  <li>Led Spring Boot microservice development for the QED platform used by multiple financial QA teams across BNY.</li>
+                                  <li>Integrated Oracle and SQL Server databases to enable real-time metrics visualization and reporting pipelines.</li>
+                                  <li>Implemented dynamic Excel reporting using Apache POI and defect alert automation via FreeMarker (FTL) templates.</li>
+                                  <li>Introduced RBAC with Spring Security, minimizing unauthorized access and enabling fine-grained control.</li>
+                                  <li>Enhanced dashboard performance and delivery cycles through backend optimization and data sync mechanisms.</li>
+                                </ul>
+                          
+                                <!-- Sub-Project 2 -->
+                                <h6 style="margin-top: 20px; font-weight: bold; color: #0e262a;">Project: NetX360 COB – Automation Testing & Onboarding Tooling</h6>
+                                <ul style="margin-left: 15px;">
+                                  <li>Built a complete BDD automation framework using Java, TestNG, Selenium, and Cucumber for NetX360 dashboards.</li>
+                                  <li>Achieved 95% automation coverage, significantly improving QA cycles, scenario validation, and defect traceability.</li>
+                                  <li>Developed a script-generation engine to auto-generate onboarding flows, reducing script creation effort by 75%.</li>
+                                  <li>Engineered a React.js frontend and Node.js backend to orchestrate and visualize test executions in real time.</li>
+                                  <li>Collaborated with UAT teams during wealth management dashboard rollouts across US and APAC regions.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          
+
+
                         
                     </div>
                     
@@ -326,107 +268,149 @@
         </div>
         <div id="skills" class="col s12">
             <div class="card">
-                <div class="card-content">
-                    <span class="card-title"><i class="fas fa-cogs icon"></i> SKILLS</span>
-                    <div class="row">
-                        <div class="col s12 m4">
-                            <div class="card" style="height: 275px;">
-                                <div class="card-content">
-                                    <span class="card-title" style="display: flex; align-items: center; font-family: 'Roboto', sans-serif;">Programming Languages
-                                    </span>
-                                    <ul class="skills-list">
-                                        <li><i class="devicon-c-plain"></i> C</li>
-                                        <li><i class="devicon-cplusplus-plain"></i> C++</li>
-                                        <li><i class="fab fa-js skill-icon"></i> JavaScript</li>
-                                        <li><i class="fab fa-java skill-icon"></i> Java</li>
-                                        <li><i class="fab fa-python skill-icon"></i> Python</li>
-                                        <li><i class="fab fa-php skill-icon"></i> PHP</li>
-                                      </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m4">
-                            <div class="card" style="height: 275px;">
-                                <div class="card-content">
-                                    <span class="card-title" style="display: flex; align-items: center; font-family: 'Roboto', sans-serif;">Software Development Skills
-                                    </span>
-                                    <ul class="skills-list">
-                                        <li><i class="fas fa-brain skill-icon"></i> Data Structures and Algorithms</li>
-                                        <li><i class="fas fa-server skill-icon"></i> Java-RESTful web-services</li>
-                                        <li><i class="fas fa-sync-alt skill-icon"></i> Rest Assured</li>
-                                        <li><i class="fas fa-file-code skill-icon"></i> Apache POI</li>
-                                        <li><i class="fas fa-code skill-icon"></i> jsonNode</li>
-                                      </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m4">
-                            <div class="card" style="height: 275px;">
-                                <div class="card-content">
-                                    <span class="card-title" style="display: flex; align-items: center; font-family: 'Roboto', sans-serif;">Technologies
-                                    </span>
-                                    <ul class="skills-list">
-                                        <li><i class="fab fa-java skill-icon"></i> Spring Boot</li>
-                                        <li><i class="fas fa-microchip skill-icon"></i> Microservices</li>
-                                        <li><i class="fas fa-file-alt skill-icon"></i> FTL</li>
-                                        <li><i class="fab fa-python skill-icon"></i> Django</li>
-                                        <li><i class="fas fa-dollar-sign skill-icon"></i> jQuery</li>
-                                        <li><i class="fab fa-android skill-icon"></i> Flutter</li>
-                                        <li><i class="fab fa-react skill-icon"></i> MERN Stack</li>
-                                        <li><i class="fab fa-aws skill-icon"></i> AWS</li>
-                                        <li><i class="fas fa-brain skill-icon"></i> Machine Learning (ML)</li>
-                                      </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m4">
-                            <div class="card" style="height: 275px;">
-                                <div class="card-content">
-                                    <span class="card-title" style="display: flex; align-items: center; font-family: 'Roboto', sans-serif;">Testing Automation
-                                    </span>
-                                    <ul class="skills-list">
-                                        <li><i class="fab fa-java skill-icon"></i> Java-API Testing</li>
-                                        <li><i class="fas fa-file-code skill-icon"></i> TestNG</li>
-                                        <li><i class="fas fa-cogs skill-icon"></i> Cucumber Framework</li>
-                                        <li><i class="devicon-selenium-original"></i> Selenium</li>
-                                      </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m4">
-                            <div class="card" style="height: 275px;">
-                                <div class="card-content">
-                                    <span class="card-title" style="display: flex; align-items: center; font-family: 'Roboto', sans-serif;">QA Testing
-                                    </span>
-                                    <ul class="skills-list">
-                                        <li><i class="fas fa-cogs skill-icon"></i> Product life cycle</li>
-                                        <li><i class="fas fa-bug skill-icon"></i> Feature/Bug fixes</li>
-                                        <li><i class="fas fa-check-square skill-icon"></i> Functional/Regression testing</li>
-                                        <li><i class="fas fa-tasks skill-icon"></i> Agile Sprints</li>
-                                        <li><i class="fab fa-jira skill-icon"></i> JIRA</li>
-                                      </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m4">
-                            <div class="card" style="height: 275px;">
-                                <div class="card-content">
-                                    <span class="card-title" style="display: flex; align-items: center; font-family: 'Roboto', sans-serif;"><i class="fas fa-database skill-icon"></i>&nbsp;Databases
-                                    </span>
-                                    <ul class="skills-list">
-                                        <li> SQL Server</li>
-                                        <li> MySQL</li>
-                                        <li> PL/SQL (Oracle)</li> 
-                                        <li> MongoDB </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+              <div class="card-content">
+                <span class="card-title"><i class="fas fa-cogs icon"></i> SKILLS</span>
+                <div class="row">
+          
+                  <!-- Programming Languages -->
+                  <div class="col s12 m4">
+                    <div class="card" style="height: 275px;">
+                      <div class="card-content">
+                        <span class="card-title">Programming Languages</span>
+                        <ul class="skills-list">
+                          <li><i class="fab fa-java"></i> Java</li>
+                          <li><i class="fab fa-js"></i> JavaScript</li>
+                          <li><i class="fab fa-python"></i> Python</li>
+                          <li><i class="fab fa-php"></i> PHP</li>
+                          <li><i class="devicon-c-plain"></i> C</li>
+                          <li><i class="devicon-cplusplus-plain"></i> C++</li>
+                        </ul>
+                      </div>
                     </div>
-                    
+                  </div>
+          
+                  <!-- Backend Technologies -->
+                  <div class="col s12 m4">
+                    <div class="card" style="height: 275px;">
+                      <div class="card-content">
+                        <span class="card-title">Backend Technologies</span>
+                        <ul class="skills-list">
+                          <li>Spring Boot, Spring Core</li>
+                          <li>Hibernate, Microservices</li>
+                          <li>RESTful Web Services</li>
+                          <li>Node.js, Django</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- Frontend Technologies -->
+                  <div class="col s12 m4">
+                    <div class="card" style="height: 275px;">
+                      <div class="card-content">
+                        <span class="card-title">Frontend Technologies</span>
+                        <ul class="skills-list">
+                          <li>ReactJS, Angular</li>
+                          <li>HTML, CSS, jQuery</li>
+                          <li>Flutter, ElectronJS</li>
+                          <li>FTL (FreeMarker)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- Databases -->
+                  <div class="col s12 m4">
+                    <div class="card" style="height: 275px;">
+                      <div class="card-content">
+                        <span class="card-title"><i class="fas fa-database skill-icon"></i> Databases</span>
+                        <ul class="skills-list">
+                          <li>Oracle DB, Microsoft SQL Server</li>
+                          <li>MySQL, PostgreSQL</li>
+                          <li>MongoDB, Neo4J</li>
+                          <li>PL/SQL</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- Cloud and Security -->
+                  <div class="col s12 m4">
+                    <div class="card" style="height: 275px;">
+                      <div class="card-content">
+                        <span class="card-title">Cloud & Security</span>
+                        <ul class="skills-list">
+                          <li>AWS (EC2, S3, RDS, Lambda)</li>
+                          <li>GCP (Kubernetes)</li>
+                          <li>Spring Security, OAuth2</li>
+                          <li>JWT Authentication</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- AI / ML Tools -->
+                  <div class="col s12 m4">
+                    <div class="card" style="height: 275px;">
+                      <div class="card-content">
+                        <span class="card-title">AI & ML Tools</span>
+                        <ul class="skills-list">
+                          <li>Machine Learning, Deep Learning</li>
+                          <li>TensorFlow, PyTorch</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- Testing Automation -->
+                  <div class="col s12 m4">
+                    <div class="card" style="height: 275px;">
+                      <div class="card-content">
+                        <span class="card-title">Testing Automation</span>
+                        <ul class="skills-list">
+                          <li>JUnit, Mockito, TestNG</li>
+                          <li>Cucumber, Selenium, RestAssured</li>
+                          <li>Java API Testing, BDD Automation</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- QA Testing -->
+                  <div class="col s12 m4">
+                    <div class="card" style="height: 275px;">
+                      <div class="card-content">
+                        <span class="card-title">QA Testing</span>
+                        <ul class="skills-list">
+                          <li>Agile Sprints</li>
+                          <li>Product life cycle</li>
+                          <li>Feature/Bug fixes</li>
+                          <li>Functional/Regression testing</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- Tools & DevOps -->
+                  <div class="col s12 m4">
+                    <div class="card" style="height: 275px;">
+                      <div class="card-content">
+                        <span class="card-title">Tools & DevOps</span>
+                        <ul class="skills-list">
+                          <li>Docker, Kubernetes, Git</li>
+                          <li>Jenkins, JIRA</li>
+                          <li>Apache POI, XML, Regex</li>
+                          <li>CI/CD, Agile (Scrum & Kanban)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+          
                 </div>
+              </div>
             </div>
-        </div>
+          </div>
+          
         <div id="projects" class="col s12">
             <div class="card">
                 <div class="card-content">
@@ -435,52 +419,62 @@
                         <div class="col s12">
                             <div class="card">
                                 <div class="card-content">
-                                    <span class="card-title" style="display: flex; align-items: center; font-family: 'Roboto', sans-serif;">Software for jewelry retailers
-                                        <span style="font-size: 0.6em; margin-left: auto; ">(ERP Software Development) - (continuously improving and refining)<a href="https://github.com/gurudattajewellers/repositories" target="_blank">
-                                            <i class="fab fa-github" style="color: #333;"></i> 
-                                          </a></span>
-                                    </span>
-                                    <p>Designed a web-based ERP system specifically tailored for single-user jewelry retail businesses, integrating seamlessly with inventory management and accounting systems to optimize overall business processes. The ERP features a live cockpit for real-time data analytics, smart tax management, and a POS system. The application, constructed with Django, ensures secure cloud-based data storage. Additionally, an ongoing development effort involves creating a mobile application using the Flutter framework to enhance portability and mobility.    
-                                    </p>
+                                  <span class="card-title" style="display: flex; align-items: center;">Gold & Silver Analytics Platform
+                                    <span style="font-size: 0.6em; margin-left: auto;">(React, Node.js, MongoDB, ARIMA)</span>
+                                  </span>
+                                  <p>Built a real-time web platform delivering historical and predictive insights for precious metal pricing using 40+ years of data. Integrated public API scrapers, ARIMA forecasting models, and an interactive charting dashboard for retail stakeholders.</p>
                                 </div>
-                            </div>
+                              </div>
                         </div>
                         <div class="col s12">
                             <div class="card">
                                 <div class="card-content">
-                                    <span class="card-title" style="display: flex; align-items: center; font-family: 'Roboto', sans-serif;">Gold and Silver Price Prediction
-                                        <span style="font-size: 0.6em; margin-left: auto; ">(Machine Learning)<a href="https://github.com/gurudattajewellers/repositories" target="_blank">
-                                            <i class="fab fa-github" style="color: #333;"></i> 
-                                          </a></span>
-                                    </span>
-                                    <p>This project concentrates on predicting gold and silver prices using a Ycharts dataset. The model employs advanced algorithms to forecast future price trends, providing investors with valuable information for their investment decisions.</p>
+                                  <span class="card-title" style="display: flex; align-items: center;">AgriProtech – Disease Detection for Crops
+                                    <span style="font-size: 0.6em; margin-left: auto;">(CNN, Flask)</span>
+                                  </span>
+                                  <p>Developed a deep learning model for plant disease detection with 89.9% accuracy. Deployed the model via Flask allowing farmers to upload crop images and receive instant diagnosis with treatment suggestions and confidence scores.</p>
                                 </div>
-                            </div>
+                              </div>
                         </div>
                         <div class="col s12">
                             <div class="card">
                                 <div class="card-content">
-                                    <span class="card-title" style="display: flex; align-items: center; font-family: 'Roboto', sans-serif;">Prediction of tariff rate for the next session truck load &nbsp;<sub style="font-size: 12px;"><u>Academic</u></sub>
-                                        <span style="font-size: 0.6em; margin-left: auto; ">(Machine Learning)<a href="https://github.com/sainageshgowrabalaji/repositories" target="_blank">
-                                            <i class="fab fa-github" style="color: #333;"></i> 
-                                          </a></span>
-                                    </span>
-                                    <p>My academic project focuses on forecasting truckload tariff rates, which is critical for businesses to manage their transportation costs effectively. Utilizing supervised machine learning algorithms, we were able to predict future tariff rates using a dataset of tariff-dependent variables</p>
+                                  <span class="card-title" style="display: flex; align-items: center;">Cardiopathie – Heart Image Segmentation
+                                    <span style="font-size: 0.6em; margin-left: auto;">(VisionNet, PyTorch)</span>
+                                  </span>
+                                  <p>Engineered a medical imaging pipeline using VisionNet and PyTorch to segment cardiac CT scans. Achieved an 87.63% Dice coefficient to support early diagnosis and treatment planning. Included preprocessing with OpenCV and GPU-accelerated training.</p>
                                 </div>
-                            </div>
+                              </div>
                         </div>
                         <div class="col s12">
                             <div class="card">
                                 <div class="card-content">
-                                    <span class="card-title" style="display: flex; align-items: center; font-family: 'Roboto', sans-serif;">Website of global live bullion prices with 40 years history of metal rates
-                                        <span style="font-size: 0.6em; margin-left: auto; ">(Web Development)<a href="https://github.com/gurudattajewellers/repositories" target="_blank">
-                                            <i class="fab fa-github" style="color: #333;"></i>
-                                          </a></span>
-                                    </span>
-                                    <p>This web-based platform employs Python's framework to provide accurate and up-to-date pricing information for gold merchants. This website also includes a 40-year history of metal rates, allowing users to track long-term trends.
-                                    </p>
+                                  <span class="card-title" style="display: flex; align-items: center;">Memoir Application – Journaling & Mood Tracker
+                                    <span style="font-size: 0.6em; margin-left: auto;">(Electron, React)</span>
+                                  </span>
+                                  <p>Developed a hybrid desktop app supporting encrypted journaling, markdown rendering, and mood tracking. Enabled offline-first access with optional cloud sync and rich UI interactions using Electron and React.</p>
                                 </div>
-                            </div>
+                              </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="card">
+                                <div class="card-content">
+                                  <span class="card-title" style="display: flex; align-items: center;">Symptom Tracker with Coping Strategies
+                                    <span style="font-size: 0.6em; margin-left: auto;">(React Native, Firebase, LLM APIs)</span>
+                                  </span>
+                                  <p>Built a mobile app to log symptoms and provide personalized coping strategies using LLM APIs. Supported user auth, chat-style feedback, and mood correlation using Firebase backend and secure storage.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="card">
+                                <div class="card-content">
+                                  <span class="card-title" style="display: flex; align-items: center;">TimeFlex Trader – Financial Prediction
+                                    <span style="font-size: 0.6em; margin-left: auto;">(LSTM + Transformer Hybrid)</span>
+                                  </span>
+                                  <p>Engineered an ensemble deep learning model combining LSTM and Transformer layers for forecasting financial time series. Reached 96% accuracy and visualized attention weights to explain model reasoning to end-users.</p>
+                                </div>
+                              </div>
                         </div>
                         
                     </div>
@@ -488,7 +482,7 @@
                 </div>
             </div>
         </div>
-        <div id="certifications" class="col s12">
+        <!-- <div id="certifications" class="col s12">
             <div class="card">
                 <div class="card-content">
                     <span class="card-title"><i class="fas fa-certificate icon"></i> CERTIFICATIONS</span>
@@ -497,10 +491,9 @@
                         <li> Certification on Stock Market Foundations (Jason Whaling)  <u style="float: right;"> Udemy </u></li>
                         <li> Mutual Fund Distributor certifications (Series V-A)  <u style="float: right;"> NISM </u></li>
                     </ul>
-                    
                 </div>
             </div>
-        </div>
+        </div> -->
         
         
     </div>
